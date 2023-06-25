@@ -1,0 +1,212 @@
+body{
+    background-color: #f8f9fa;
+}
+header{
+    position: relative; 
+}
+.clear{
+    clear: both;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    color: #1a5769 !important;
+}
+.right_box{
+    position: absolute; 
+    right: 0px;
+    top: 0px;
+}
+.square{
+    right: 0px;
+    top: 0px;
+    background-color: #80adbc;
+    height: 400px;
+    width: 500px;
+    position: absolute;   
+}
+
+.img1 {
+    position: absolute;   
+    height: 360px;
+    width: 480px;
+    background-image: url(../imgs/imge1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: 180px;
+    top: 90px;
+    box-shadow:3px 2px 5px #375a64a2;
+}
+.description{
+    margin-top: 50px;
+}
+.description h1 , p{
+    color: #4e7885;
+}
+
+.description button {
+    background-color: white;
+    height: 35px;
+    width: 100px;
+    font-size: 15px;
+    margin-top: 80px;
+    border: 0px;
+    box-shadow:3px 3px 5px #a8b8bda2;
+    outline: none;
+}
+.description button:hover {
+   
+    box-shadow:3px 3px 5px #69838aa2;
+}
+
+/*start section2 style*/
+.s2 {
+    margin-top: 150px;
+    text-align: center !important;
+    position: relative; 
+}
+.circle{
+    height: 500px;
+    width: 500px;
+    background-color: indianred;
+    border-radius: 50%;
+    position: absolute; 
+    left: -120px;
+    top: 100px;
+    z-index: -100;
+}
+
+.server1 ,.server2 , .server3{
+    background-color: white;
+    height: 370px;
+    width: 350px;  
+    overflow: hidden;
+    padding: 15px;
+    margin: 40px;
+    transition: 1s;
+    
+}
+.server1:hover ,.server2:hover , .server3:hover{
+    background-color: rgb(201, 89, 89); 
+}
+.server1:hover p,.server2:hover p , .server3:hover p{
+    color: white;
+}
+.server1 div ,.server2 div , .server3 div{
+    background-image: url(../imgs/img3.jpg);
+    height:270px ;
+    width: 270px;
+    background-position: center;
+    background-size: 380px;
+    background-repeat: no-repeat;
+    border-radius: 0% 50% 50% 0px;
+    margin-top: -45px;
+    margin-left: -55px;  
+}
+.server2 div {
+    background-image: url(../imgs/img4.jpg);
+}
+.server3 div {
+    background-image: url(../imgs/imge1.jpg);
+}
+.s2-b{ 
+    
+    background-color: indianred;
+    height: 35px;
+    width: 100px;
+    font-size: 15px;
+    text-align: center;
+    border: 0px;
+    box-shadow:3px 3px 5px #a8b8bda2; 
+    outline: none;
+    margin-left: 43%;
+    padding-top: 4px;
+    color: white;
+}
+.s2-b:hover {
+   
+    box-shadow:3px 3px 5px #69838aa2;
+}
+.s2 h2{
+    margin-bottom: 50px;
+}
+/*end section2 style*/
+/*start section3 style*/
+.s3{
+    margin-top: 30px;
+    position: relative;
+}
+.dark-square{
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    height: 530px;
+    width: 400px;
+    background-color: #1a5769;    
+}
+.above-dark-square{
+    position: absolute;
+    right: 140px;
+    top: 150px;
+    height: 350px;
+    width: 520px;
+    background-image: url(../imgs/img5.jpg);
+}
+.explained{
+    height: 330px;
+    width: 370px;
+    background-color: white;
+    padding: 35px;
+    margin-top: 130px;
+    box-shadow: -60px -25px teal;
+}
+.explained button {
+    background-color: indianred;
+    height: 35px;
+    width: 100px;
+    font-size: 15px;
+    text-align: center;
+    border: 0px;
+    box-shadow:3px 3px 5px #a8b8bda2; 
+    outline: none;
+    margin-top: 10px;
+    padding-top: 4px;
+    color: white;
+}
+.explained button:hover {
+   
+    box-shadow:3px 3px 5px #69838aa2;
+}
+footer{
+    margin-top: 150px;
+    height: 100px;
+    background-color: white;
+    bottom: -400px;
+    padding-left: 30%;
+
+}
+ul li{
+    list-style-type: none;
+    float: left;
+    margin-top: 40px;
+    margin: 50px 20px ;
+    transition: 1s;
+    height: 35px;
+    width: 70px; 
+    text-align: center;
+    padding-top: 4px;
+}
+ul li.active{
+    background-color: indianred;
+    border: 0px;
+    color: white; 
+}
+ul li:hover{
+    background-color: indianred;
+    border: 0px;
+    color: white; 
+}
+
+
+/*end section three stye*/
+
